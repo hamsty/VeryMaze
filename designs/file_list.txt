@@ -1,0 +1,10 @@
+testbench.v
+DE10_LITE_Golden_Top.v
+clock_divider.v
+vga.v
+rom.v
+maze.v
+sevensegs.v
+player.v
+counter.v
+
