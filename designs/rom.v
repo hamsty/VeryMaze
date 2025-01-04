@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 
 module dual_port_rom
-    #(parameter mem_init = "rom.mem", parameter data_width=24, parameter addr_width = 15, parameter size=19200)
+    #(parameter mem_init = "", parameter data_width=24, parameter addr_width = 15, parameter size=19200)
     (
     input [addr_width-1:0] addr_a, addr_b,
     input clk,

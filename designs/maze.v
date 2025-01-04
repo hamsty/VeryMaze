@@ -137,7 +137,7 @@ module maze(
 
 
     dual_port_rom #(
-        .mem_init("labirinto.mem"),
+        .mem_init("assets/labirinto.mem"),
         .data_width(1),
         .addr_width(12),
         .size(2304)
@@ -150,7 +150,7 @@ module maze(
     );
 
     dual_port_rom #(
-        .mem_init("tile.mem"),
+        .mem_init("assets/tile.mem"),
         .data_width(12),
         .addr_width(11),
         .size(1200)

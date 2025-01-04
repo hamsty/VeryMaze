@@ -2,3 +2,10 @@
 .settings/
 .library_mapping.xml
 .project
+simulation/
+output_files/
+db/
+incremental_db/
+verymaze_nativelink_simulation.rpt
+qar_info.json
+*.bak

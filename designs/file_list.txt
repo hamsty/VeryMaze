@@ -1,5 +1,5 @@
 testbench.v
-DE10_LITE_Golden_Top.v
+top.v
 clock_divider.v
 vga.v
 rom.v
