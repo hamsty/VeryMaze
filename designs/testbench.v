@@ -25,7 +25,7 @@ module test;
     .clk(MAX10_CLK1_50)
     );
 
-    DE10_LITE_Golden_Top main (
+    top main (
         .MAX10_CLK1_50(MAX10_CLK1_50),
         .KEY(KEY),
         .SW(SW),
